@@ -1,6 +1,5 @@
-<local:MyBaseClass xmlns="https://github.com/avaloniaui"
+<MyBaseClass xmlns="com.mycompany.xaml"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:AvalonialessXamlSample"
              x:Class="AvalonialessXamlSample.MyXamlClass">
-    <local:SomeClassWithProperty Property="{local:MyBinding MyPath}"/>
-</local:MyBaseClass>
+    <SomeClassWithProperty Property="{MyBinding MyPath}"/>
+</MyBaseClass>

@@ -1,6 +1,8 @@
 ﻿using Avalonia;
 using System;
+using Avalonia.Metadata;
 
+[assembly:XmlnsDefinition("com.mycompany.xaml", "AvalonialessXamlSample")]
 namespace AvalonialessXamlSample;
 
 class Program
